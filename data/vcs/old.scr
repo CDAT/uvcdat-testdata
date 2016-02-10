@@ -5188,7 +5188,7 @@ Gi_div_anom(
    (id=3,priority=1,level=-5e-06,increment=0,hilite_ci=0,
     label=*,Tl=dashed,Tt=default,To=default)
    (id=4,priority=1,level=-4e-06,increment=0,hilite_ci=0,
-    label=*,Tl=dashed,Tt=default,To=default)
+    label=*,Tl=red_solid,Tt=default,To=default)
    (id=5,priority=1,level=-3e-06,increment=0,hilite_ci=0,
     label=*,Tl=dashed,Tt=default,To=default)
    (id=6,priority=1,level=-2e-06,increment=0,hilite_ci=0,
@@ -13670,7 +13670,7 @@ Gfb_lon_lat_mjop05(
    datawc(30,-30,210,30),
    xaxisconvert=linear,
    yaxisconvert=linear,
-   level_1=-0.05,level_2=0.05,color_1=16,color_2=239,legend_type=0,
+   level_1=-0.05,level_2=0.05,color_1=18,color_2=219,legend_type=0,
    legend=(),
    ext_1=y,ext_2=y,missing=252)
 Gfb_lon_lat_mjo1(
@@ -16003,7 +16003,7 @@ Gv_lon_lat_IO_5(
    datawc(20,-40,160,40),
    xaxisconvert=linear,
    yaxisconvert=linear,
-   Tl=default,vector_scale=3,vector_align=c,vector_type=3,ref_vector=5)
+   Tl=red_solid,vector_scale=3,vector_align=c,vector_type=3,ref_vector=5)
 Gv_lon_lat_IO(
    projection=linear,xticlabels#1=lon20,xticlabels#2=lon20,xmtics#1=lon5,
    xmtics#2=lon5,yticlabels#1=lat20_eq,yticlabels#2=lat20_eq,
