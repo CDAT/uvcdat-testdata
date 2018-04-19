@@ -25,7 +25,7 @@
     0.0, 
     100.0
    ], 
-   "markersize": 1, 
+   "markersize": 10, 
    "projection": "linear", 
    "smooth": null, 
    "xaxisconvert": "linear", 
@@ -755,7 +755,7 @@
    "priority": 1, 
    "projection": "default", 
    "size": [
-    1.0
+    10.0
    ], 
    "type": [
     "dot"
